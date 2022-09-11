@@ -146,7 +146,7 @@ public class Basics {
 
         // Fill in the rest of the body here
         String[] first_letter = to_split.split(" ");
-        for(int i = 0; i <= 7; i++){
+        for(int i = 0; i < 7; i++){
             ret.append(first_letter[i].charAt(0));
         }
         return ret.toString();
