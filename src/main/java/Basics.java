@@ -181,9 +181,9 @@ public class Basics {
             for (int i = 1; i <= arr.length; i++){
                 if(i % 2 != 0) current_sum += i;
             }
-            return current_sum;
-        }
 
+        }
+        return current_sum;
     }
 
 
